@@ -25,7 +25,7 @@ const Login = () => {
         onChange={(e) => setPassword(e.target.value)}
       />
       {error && <div className="text-red-400 mt-2">{error}</div>}
-      <button type="submit" className="mt-4 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 font-medium rounded-3xl text-sm px-5 py-2.5 text-center mb-2 w-full">Log In</button>
+      <button type="submit" className="cursor-pointer mt-4 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 font-medium rounded-3xl text-sm px-5 py-2.5 text-center mb-2 w-full">Log In</button>
 
     </form>
     </div>
