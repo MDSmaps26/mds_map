@@ -14,9 +14,9 @@ const Login = () => {
   };
 
   return (
-    <div className="w-screen h-screen flex flex-col justify-center items-center bg-[#383838]">
+    <div className="w-screen h-screen flex flex-col justify-center items-center bg-[#989898]">
     <form onSubmit={handleSubmit} className="p-4 max-w-sm flex flex-col justify-center items-center mt-10">
-      <img className="mb-7 w-30 h-30" src={import.meta.env.VITE_LOGIN_LOGO_URL} alt="MDS Medical Logo" />
+      <img className="mb-7 w-30 h-auto" src="/mds_logo.png" alt="MDS Medical Logo" />
       <input
         type="password"
         placeholder="Enter password"
